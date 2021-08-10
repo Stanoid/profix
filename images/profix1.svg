@@ -1,15 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
    id="svg116"
    version="1.1"
-   viewBox="0 0 500 200"
-   height="200mm"
-   width="500mm">
+   viewBox="0 0 500 140"
+   height="140mm"
+   width="500mm"
+   sodipodi:docname="profix1.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview32"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.5826125"
+     inkscape:cx="944.88189"
+     inkscape:cy="377.60947"
+     inkscape:window-width="1366"
+     inkscape:window-height="731"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g16" />
   <defs
      id="defs110">
     <clipPath
@@ -28,7 +51,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -36,7 +58,7 @@
      transform="translate(0,-97)"
      id="layer1">
     <g
-       transform="matrix(1.0874591,0,0,-1.0874591,-86.637973,906.35781)"
+       transform="matrix(1.0874591,0,0,-1.0874591,-86.637973,909.96249)"
        id="g16">
       <g
          clip-path="url(#clipPath22)"
@@ -105,36 +127,7 @@
            id="path54"
            style="fill:#414142;fill-opacity:1;fill-rule:nonzero;stroke:none"
            d="m 428.509,708.609 h 9.764 v -69.065 h -9.764 z" />
-        <g
-           transform="translate(92.0161,625.5596)"
-           id="g56">
-          <path
-             id="path58"
-             style="fill:#414142;fill-opacity:1;fill-rule:nonzero;stroke:#414142;stroke-width:10;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-             d="M 0,0 H 0.333" />
-        </g>
       </g>
     </g>
-    <text
-       y="279.78784"
-       x="1.4467028"
-       id="text74"
-       style="font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.95574951px;font-family:'Century Gothic';-inkscape-font-specification:CenturyGothic;writing-mode:lr-tb;fill:#fbb03f;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.08745909">
-      <tspan
-         id="tspan68"
-         y="279.78784"
-         x="1.4467028 27.151016 56.404018 88.678261 98.269394 127.52244 158.69376 189.86496 204.29964 213.89078 243.1438"
-         style="stroke-width:1.08745909">Engineering</tspan>
-      <tspan
-         id="tspan70"
-         y="279.78784"
-         x="275.41791"
-         style="stroke-width:1.08745909" />
-      <tspan
-         id="tspan72"
-         y="279.78784"
-         x="288.70163 327.68967 359.10071 372.38446 385.66818 398.95193 421.10745 437.36447 470.21414"
-         style="stroke-width:1.08745909">Co., Ltd.</tspan>
-    </text>
   </g>
 </svg>
