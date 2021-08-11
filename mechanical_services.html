@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Profix | Cleaning Services</title>
+<title>Profix | Mechanical Services</title>
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
@@ -114,49 +114,58 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      
+      <a href="index.html" class="w3-bar-item w3-button w3-wide">
+        <img src="images/profix1.svg" width="130" />
+      </a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
     
-    <a href="index.html" class="w3-bar-item w3-button w3-wide">
-      <img src="images/profix1.svg" width="130" />
-    </a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
   
-
-   
-
-    
-     <a href="#team"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-user"></i> About</button></a> 
-     <a href="#contact"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-envelope"></i> Contact</button></a> 
-     <div class="dropdown">
-      <button class="dropbtn" style="background-color: #fbb443;" >Services</button>
-      <div class="dropdown-content">
-        <a href="civil_services.html">Civil services</a>
-        <a href="mechanical_services.html">Mechanical services</a>
-        <a href="managment_solutions.html">Managment solutions</a>
-        <a href="power_solutions.html">Power solutions</a>
-        <a href="generation_projects">Generation projects</a>
-        <a href="cleaning_services.html">Cleaning and disinfection</a>
+     
+  
+      
+       <a href="#team"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-user"></i> About</button></a> 
+       <a href="#contact"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-envelope"></i> Contact</button></a> 
+       <div class="dropdown">
+        <button class="dropbtn" style="background-color: #fbb443;" >Services</button>
+        <div class="dropdown-content">
+          <a href="civil_services.html">Civil services</a>
+          <a href="mechanical_services.html">Mechanical services</a>
+          <a href="electrical_services.html">Electrical services</a>
+          <a href="managment_solutions.html">Managment solutions</a>
+          <a href="power_solutions.html">Power solutions</a>
+          <a href="generation_projects">Generation projects</a>
+          <a href="cleaning_services.html">Cleaning and disinfection</a>
+        </div>
+      </div>  
+      
       </div>
-    </div>  
-    
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
-  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
- 
-  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-</nav>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+      <a class="w3-bar-item w3-button" href="civil_services.html">Civil services</a>
+      <a class="w3-bar-item w3-button" href="mechanical_services.html">Mechanical services</a>
+      <a class="w3-bar-item w3-button" href="electrical_services.html">Electrical services</a>
+      <a class="w3-bar-item w3-button" href="managment_solutions.html">Managment solutions</a>
+      <a class="w3-bar-item w3-button" href="power_solutions.html">Power solutions</a>
+      <a class="w3-bar-item w3-button" href="generation_projects">Generation projects</a>
+      <a class="w3-bar-item w3-button" href="cleaning_services.html">Cleaning and disinfection</a>
+    
+      <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+     
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
 <!-- #414142 -->
 <!-- Header with full-height image -->
 <header class=" w3-display-container " id="home">
