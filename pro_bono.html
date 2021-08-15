@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Profix | Power solutions</title>
+<title>Profix | Cleaning Services</title>
 <meta charset="UTF-8">
 <link rel="shortcut icon" type="image/jpg" href="./images/favicon.ico"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
@@ -47,9 +47,8 @@ body, html {
 
 
 .anbgo {
-   background-image: url("./images/gen.jpeg");
+   background-image: url("./images/bono.jpg");
   background-attachment: fixed;
-  
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -115,70 +114,67 @@ body, html {
 
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
-  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      
+      <a href="index.html" class="w3-bar-item w3-button w3-wide">
+        <img src="images/profix1.svg" width="130" />
+      </a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
     
-    <a href="index.html" class="w3-bar-item w3-button w3-wide">
-      <img src="images/profix1.svg" width="130" />
-    </a>
-    <!-- Right-sided navbar links -->
-    <div class="w3-right w3-hide-small">
   
-
-   
-
-    
-     <a href="#team"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-user"></i> About</button></a> 
      
-     <a href="#contact"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-envelope"></i> Contact</button></a> 
-       
-     <a href="pro_bono.html"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" > <i class="fas fa-hands-helping"></i> Pro Bono </button></a> 
-    
-     <div class="dropdown">
-      <button class="dropbtn" style="background-color: #fbb443;" >Services</button>
-      <div class="dropdown-content">
-        <a href="civil_services.html">Civil services</a>
-        <a href="mechanical_services.html">Mechanical services</a>
-        <a href="electrical_services.html">Electrical services</a>
-        <a href="managment_solutions.html">Managment solutions</a>
-        <a href="power_solutions.html">Power solutions</a>
-        <a href="generation_projects.html">Generation projects</a>
-        <a href="cleaning_services.html">Cleaning and disinfection</a>
+  
+      
+       <a href="#team"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-user"></i> About</button></a> 
+       <a href="#contact"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" ><i class="fa fa-envelope"></i> Contact</button></a> 
+       <div class="dropdown">
+        <button class="dropbtn" style="background-color: #fbb443;" >Services</button>
+        <a href="pro_bono.html"><button class="dropbtn"  class="w3-bar-item w3-button" style="background-color: white; color: black;" > <i class="fas fa-hands-helping"></i> Pro Bono </button></a> 
+        <div class="dropdown-content">
+          <a href="civil_services.html">Civil services</a>
+          <a href="mechanical_services.html">Mechanical services</a>
+          <a href="electrical_services.html">Electrical services</a>
+          <a href="managment_solutions.html">Managment solutions</a>
+          <a href="power_solutions.html">Power solutions</a>
+          <a href="generation_projects.html">Generation projects</a>
+          <a href="cleaning_services.html">Cleaning and disinfection</a>
+        </div>
+      </div>  
+      
       </div>
-    </div>  
-    
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
-      <i class="fa fa-bars"></i>
-    </a>
   </div>
-</div>
-
-<!-- Sidebar on small screens when clicking the menu icon -->
-<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
-    <a class="w3-bar-item w3-button" href="civil_services.html">Civil services</a>
-    <a class="w3-bar-item w3-button" href="mechanical_services.html">Mechanical services</a>
-    <a class="w3-bar-item w3-button" href="electrical_services.html">Electrical services</a>
-    <a class="w3-bar-item w3-button" href="managment_solutions.html">Managment solutions</a>
-    <a class="w3-bar-item w3-button" href="power_solutions.html">Power solutions</a>
-    <a class="w3-bar-item w3-button" href="generation_projects">Generation projects</a>
-    <a class="w3-bar-item w3-button" href="cleaning_services.html">Cleaning and disinfection</a>
-    <a style="margin-top: 10px;"  href="pro_bono.html" onclick="w3_close()" class="w3-bar-item w3-button">Pro Bono</a>
+  
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+      <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+      <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">Services</a>
+      <a class="w3-bar-item w3-button" href="civil_services.html">Civil services</a>
+      <a class="w3-bar-item w3-button" href="mechanical_services.html">Mechanical services</a>
+      <a class="w3-bar-item w3-button" href="electrical_services.html">Electrical services</a>
+      <a class="w3-bar-item w3-button" href="managment_solutions.html">Managment solutions</a>
+      <a class="w3-bar-item w3-button" href="power_solutions.html">Power solutions</a>
+      <a class="w3-bar-item w3-button" href="generation_projects">Generation projects</a>
+      <a class="w3-bar-item w3-button" href="cleaning_services.html">Cleaning and disinfection</a>
+    
+      <a style="margin-top: 10px;"  href="pro_bono.html" onclick="w3_close()" class="w3-bar-item w3-button">Pro Bono</a>
  
-    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
-   
-    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
-  </nav>
+      <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">About</a>
+     
+      <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+    </nav>
 <!-- #414142 -->
 <!-- Header with full-height image -->
 <header class=" w3-display-container " id="home">
 
   <div class="w3-display-bottomleft  w3-large" style="padding:24px 48px ; color:white;">
    <a href="https://www.facebook.com/ProFixSudan/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> 
-   <a href="https://www.linkedin.com/company/profix-engineering-co-ltd/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a> 
   
   </div>
 </header>
@@ -197,16 +193,16 @@ body, html {
     <div class="w3-col m6">
    
       <div class="w3-container" style="color: black;">
-
+        <h3 style="color: black;">Pro Bono Engineering:</h3>
      
-
-        <h3>Power Generation</h3>
-        • Supply & installation of variable sizes of genset from leading manufacturer.<br>
-        • Designing & undertake the civil works related to genset as foundations, cable trench & generator rooms …. Etc.<br>
-        • Designing & erection of extension mufflers & silencers for open set type.<br>
-        • Supply & erection of fuel storage tanks with related piping system.<br>
-        • Service and repairs.<br>
-        • Scheduled maintenance programs.<br>
+        <p>
+            ProFix offers pro bono engineering services to many communities in Sudan who lack basic services from drinking water, solar power, agriculture and many more. We are currently only operating in Sudan only.
+            Profix Partnerships between companies and community organizations also make it easier to kickstart projects and initiate conversations about where engineering skills can be applied.
+            Please contact us if you are a volunteering or partnership on: 
+            
+            <a href = "mailto:  probono@profixengineering.com"> probono@profixengineering.com</a>
+         
+        </p>
       
       </div>
     
@@ -333,7 +329,6 @@ body, html {
   <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
   <div class="w3-xlarge w3-section">
     <a href="https://www.facebook.com/ProFixSudan/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a> 
-    <a href="https://www.linkedin.com/company/profix-engineering-co-ltd/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a> 
   </div>
 </footer>
  
